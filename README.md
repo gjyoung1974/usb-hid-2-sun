@@ -141,8 +141,7 @@ Troubleshooting
 Parts required
 --------------
 * Raspberry Pico
-* 8 pin minidin male cable (I used
-https://no.rs-online.com/web/p/din-cable-assemblies/0463518)
+* 8 pin minidin male cable https://www.amazon.com/zdyCGTime-DIN-Pluggable-Computers-Televisions/dp/B0FHKV2JMM/r
 * 2 SN74LVC244AN
 * USB-A female socket or breakout board (or an OTG adapter, if building with `-DUSB2SUN_PIO_USB=OFF`)
 * Optional: 2 x 22 Ω resistors for the USB data lines
