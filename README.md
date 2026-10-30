@@ -178,13 +178,11 @@ and mouse plug into a USB-A socket wired to GP15/GP16 (Pico pins 20/21).
 
 Power
 
-                mini-DIN pin 3/8 (5V) ---+--- Pico pin 39 (VSYS)
-                                         +--- USB-A pin 1 (VBUS)
-                                         +--- SN74LVC244AN 3V3-to-5V shifter, pin 20 (VCC)
+                mini-DIN pin 3/8 ---+--- Pico pin 39 (VSYS)
+                                    +--- USB-A pin 1 (VBUS)
 
-                mini-DIN pin 1/2 (GND) --+--- Pico pin 38 (GND)
-                                         +--- USB-A pin 4 (GND)
-                                         +--- both SN74LVC244AN GND pins
+                mini-DIN pin 1/2 --+--- Pico pin 38 (GND)
+                                   +--- USB-A pin 4 (GND)
 
 Feed the Sun's 5V into VSYS (pin 39), not VBUS (pin 40). VSYS is the Pico's external
 power input and sits behind the on-board Schottky diode, so the micro-USB port can
