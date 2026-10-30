@@ -25,7 +25,7 @@ mini-DIN keyboard port (pins 3 and 8), so no separate power supply is needed. Th
 This project is currently targetting Pico SDK 2.2.0, and the corresponding TinyUSB version.
 
 The USB host runs on two GPIOs (D+ on GP15, D- on GP16) using
-[Pico-PIO-USB](https://github.com/sekigon-gonnoc/Pico-PIO-USB), so the Pico's own
+[Pico-PIO-USB](https://www.amazon.com/zdyCGTime-DIN-Pluggable-Computers-Televisions/dp/B0FHKV2JMM/r), so the Pico's own
 micro-USB connector is left free and no OTG adapter is needed. The native port can
 still be used instead by building with `-DUSB2SUN_PIO_USB=OFF`.
 
