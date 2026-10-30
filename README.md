@@ -1,3 +1,11 @@
+This was borrowed from USB2Sun https://github.com/jgilje/USB2Sun
+
+I've made some modifications to 
+- Drop the level shifers
+- Run USB off of GPIO pins vs OTG
+- Made the HID Driver a little more robust for non-compliant / less expensive mouses
+
+
 USB2Sun
 =======
 While I've found many projects for connecting the Sun serial based keyboards to a modern
@@ -265,6 +273,9 @@ MiniDin-8 plug
 | 6   | KBD TX     |
 | 7   | Power key (not connected, see Missing Features) |
 | 8   | 5V         |
+
+---
+
 
 Pins 3 and 8 (5V) and pins 1 and 2 (GND) supply the Pico, the USB keyboard and
 mouse, and the level shifters, as shown in the Power section above.
