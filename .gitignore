@@ -1,0 +1,20 @@
+build
+.vscode
+# in-source cmake build artifacts
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+_deps/
+generated/
+pico-sdk/
+pico_flash_region.ld
+picotool/
+pioasm/
+pioasm-install/
+usb2sun.bin
+usb2sun.dis
+usb2sun.elf
+usb2sun.elf.map
+usb2sun.hex
+usb2sun.uf2
