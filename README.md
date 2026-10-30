@@ -223,32 +223,6 @@ the keyboard comes straight from the Sun's 5V rail.  GP22 (Pico pin 29) is drive
 high at boot and can switch a high-side VBUS switch if you want one; otherwise leave
 it unconnected.
 
-5V to 3V3 level shifter
-
-          GND   * Pin  1----------------Pin 20 *   3V3
-       KBD RX   * Pin  2                Pin 19 *
-                * Pin  3                Pin 18 *   UART1 RX
-                * Pin  4                Pin 17 *
-                * Pin  5  SN74LVC244AN  Pin 16 *
-                * Pin  6                Pin 15 *
-                * Pin  7                Pin 14 *
-                * Pin  8                Pin 13 *
-                * Pin  9                Pin 12 *
-          GND   * Pin 10----------------Pin 11 *
-
-3V3 to 5V level shifter
-
-          GND   * Pin  1----------------Pin 20 *   5V
-     UART1 TX   * Pin  2                Pin 19 *
-                * Pin  3                Pin 18 *   KBD TX
-     UART0 TX   * Pin  4                Pin 17 *
-                * Pin  5  SN74LVC244AN  Pin 16 *   MOUSE TX
-                * Pin  6                Pin 15 *
-                * Pin  7                Pin 14 *
-                * Pin  8                Pin 13 *
-                * Pin  9                Pin 12 *
-          GND   * Pin 10----------------Pin 11 *
-
 MiniDin-8 plug
 
             , - ~._.~ - ,
